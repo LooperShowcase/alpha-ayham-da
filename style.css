@@ -1,0 +1,44 @@
+body {
+  background-color: orange;
+  font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Shippori Antique', sans-serif;
+}
+
+#d1 {
+  background-color: red;
+}
+#d2 {
+  background-color: rgb(58, 199, 33);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
